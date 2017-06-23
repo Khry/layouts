@@ -1,0 +1,118 @@
+
+body {
+  margin: 10px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  grid-template-columns: 25% 1fr 20%;
+  grid-template-rows: 150px 1fr;
+  background-color:  #3399ff;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  }
+.box {
+  background-color:  #3399ff;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin:1%;
+  padding:5px;
+  text-align: center;
+  color: white;
+  }
+nav{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 25%;
+}
+.right{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 75%;
+}
+.header{
+  flex-basis: auto;
+  padding: 25px;
+}
+.div{
+  flex:1 1 auto;
+  border-style: none;
+  margin: 0;
+  
+}
+.flexdiv{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  border:none;
+
+  }
+.content{
+  flex:1 1 auto;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 72%;
+}
+.contentflex{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+
+}
+.section{
+  flex:1 1 auto;
+}
+.sectionflex{
+  display: flex;  
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  align-content: space-around;
+}
+p.box{
+  flex:1 1 auto;
+  width: 9%;
+  padding: 30px 10px;
+  margin: 10px;
+}
+.article{
+   flex:1 1 auto;
+}
+.articleflex{
+  display: flex;  
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+
+}
+.a1, .a2{
+  width: 50%;
+  padding: 60px 5px;
+}
+.footer{
+  padding: 30px 5px;
+}
+.aside{
+  width: 28%;
+  padding: 200px 5px;
+}
+.nav{
+  padding: 25px 0px;
+}
+.ul{
+  margin: 0px 0px;
+  list-style-type: none;
+  padding: 10px;
+}
+ul.li{
+  padding: 10px 2px 40px 2px;
+  list-style-type: none;
+}
+ul>.li{
+  margin: 10px 10px;
+}
